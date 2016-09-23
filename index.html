@@ -7,14 +7,14 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/reset.css">
+	<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	
 	<div class="jumbotron">
 		<div class="container">
-			<h1>reply<span id="hubFont">HUB</span></h1>
+			<img src="assets/images/reply-hub-logo.png" id="replyHUB" height="150" alt="">
 			<div class="row">
 				<div class="col-xs-2 col-s-4 col-md-4 col-lg-4">	
 				</div>
@@ -35,48 +35,48 @@
 <div id="icon-container">
 	<div class="container">
 		<div class="row" id="icons">
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1" id="gifIcon">
-				
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-1" id="gifIcon">
+				<img src="assets/images/Icon-GIF.png" class="iconImage" alt="" height="60">
 			</div>
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="imageIcon">
-				
+				<img src="assets/images/Icon-Image.png" class="iconImage" alt="" height="60">
 			</div>
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="videoIcon">
-				
+				<img src="assets/images/Icon-Video.png" class="iconImage" alt="" height="60">
 			</div>
-			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="tumblrIcon">
-				
-			</div>
+			<!-- <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="tumblrIcon">
+				<img src="" class="iconImage" alt="" height="60">
+			</div> -->
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" id="wikiIcon">
-				
+				<img src="assets/images/Icon-Wiki.png" class="iconImage" alt="" height="60">
 			</div>
 		</div>
 	</div>
 </div>
-<div id="icon-footer">
+<!-- changes color when specfic icon is clicked -->
+<div id="icon-footer"></div>
+
+
+<div class="container-fluid display-row grid" id="gifsContainer">
 	
 </div>
 
+<div class="container-fluid display-row hide grid" id="picsContainer">
 
-<div class="container">
-	<div class="row" id="first-row">
-	</div>
-</div>
-<div class="container">
-	<div class="row" id="second-row">
-	</div>
-</div>
-<div class="container">
-	<div class="row" id="third-row">
-	</div>
-</div>
-<div class="container">
-	<div class="row" id="fourth-row">
-	</div>
 </div>
 
+<div class="container-fluid display-row hide grid" id="vidsContainer">
+	
+</div>
+
+<div class="container-fluid display-row hide grid" id="wikiContainer">
+	
+</div>
+	<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="app.js"></script>
+	<script src="assets/javascript/salvattore.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
 </body>
 </html>

@@ -1,32 +1,40 @@
 body{
   font-family: 'Open Sans', sans-serif;
-}
-
-.navbar-default {
-  background: #2B343B;
-  border:none;
-  height: 55px;
-  border-radius:0; 
-}
-
-ul li {
-  font-size: 14px;
+  background-color: whitesmoke;
 }
 
 .jumbotron {
   margin-top: -50px;
   margin-bottom: 0px;
   height: 458px;
-  background: #ffd89b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ffd89b , #19547b); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ffd89b , #19547b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  padding-top: 158px; 
+  padding-top: 150px; 
   color: white;
+  background: linear-gradient(90deg, #0f729c, #216654, #6a57a9, #a73ea9, #a93e5b, #e56027, #e59227, #fcc425);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
-h1{
-  margin-bottom: 60px;
+#replyHUB{
+  padding-bottom: 35px;
 }
 
 .glyphicon-search {
@@ -34,22 +42,20 @@ h1{
   font-size: 20px;
 }
 
-#hubFont{
-
-}
-
 #icon-container {
-  background-color: black;
+  background-color: #2b2b2b;
 }
 
 #buffer {
   /* width: 16px; */
   height: 66px;
+  background-color: #2b2b2b;
 }
 
 #icon-footer {
   height: 40px;
   background-color: #E76737;
+  margin-bottom: 20px;
 }
 
 .form-control{
@@ -63,13 +69,18 @@ h1{
 }
 
 #icons{
-  background-color: black;
+  background-color:#2b2b2b;
   margin-top: 0;
+  text-align: center;
+}
+
+.iconImage{
+  padding-top: 8px; 
 }
 
 #gifIcon{
   height:66px;
-  /* width:154px; */
+   /*width:154px; */
   background-color:#E76737; 
   display:inline-block;
  
@@ -77,7 +88,7 @@ h1{
 
 #imageIcon{
   height:66px;
-  /* width:154px; */
+   /*width:154px; */
   background-color:#EAAF48; 
   display:inline-block;
 
@@ -86,7 +97,7 @@ h1{
 
 #videoIcon{
   height:66px;
-  /* width:154px; */
+   /*width:154px; */
   background-color:#168793; 
   display:inline-block;
   
@@ -101,8 +112,36 @@ h1{
 }
 #wikiIcon{
   height:66px;
-  /* width:154px; */
   background-color:#19AA67;
   display:inline-block;
+}
+
+.grid{
+  text-align: center;
+}
+
+/*
+#grid[data-columns]::before {
+  content: '3 .column.size-1of3';
+}
+.column { float: left; }
+.size-1of3 { width: 33.333%; }*/
+
+.thumbnail{
+  /*height:245px;*/
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20px;
 
 }
+
+.vid-wrap{
+  display: inline-block;
+}
+
+
+
+
+
+
+
